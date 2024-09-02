@@ -1,0 +1,60 @@
+body {
+  background-color: lightsalmon;
+}
+
+div{
+  align-self: center;
+  justify-content: center;
+}
+.navbar{
+  background-color: salmon;
+  font-size: 1.5rem;
+  margin: 50px;
+  display: flex;
+  align-self: center;
+}
+.nav-brand {
+  font-weight: bold;
+}
+.button{
+  margin: 1px;
+  padding: 1px;
+}
+.card{
+margin: 2px;
+padding: 5px;
+}
+
+    .carousel-inner {
+      max-height: 60%;
+      max-width: auto;
+    }
+    img {
+        max-width: auto;
+        height: auto;
+        object-fit: cover;
+      }
+
+      .carousel {
+        max-height: 60%;
+        max-width: 50%;
+        display: none;
+      }
+
+
+      @media (max-width: 768px) {
+        .navbar-brand {
+          font-size: 1.5rem; /* Increase brand/logo size */
+          padding-left: 15px;
+        }
+  
+        .navbar-nav .nav-link {
+          font-size: 1.2rem; /* Increase link font size */
+          padding: 10px 15px; /* Increase padding */
+        }
+  
+        .navbar-toggler {
+          padding: 8px 10px; /* Increase toggle button size */
+          font-size: 1.2rem; /* Increase toggle icon size */
+        }
+      }
