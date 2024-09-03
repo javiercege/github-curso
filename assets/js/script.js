@@ -27,3 +27,4 @@ overlay.addEventListener('click', function() {
     textBox.style.display = 'none';
     overlay.style.display = 'none';
 });
+
